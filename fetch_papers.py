@@ -115,7 +115,7 @@ if __name__ == "__main__":
       print('No new papers were added. Assuming no new papers exist. Exiting.')
       break
     ransleep = float(random.randrange(30))
-    print('Sleeping for %i seconds' % (ransleep , ))
+    print('Sleeping for %i seconds' % (ransleep ,))
     time.sleep(ransleep + random.uniform(0, 3))
 
   # save the database before we quit, if we found anything new
